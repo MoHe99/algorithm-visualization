@@ -1,0 +1,58 @@
+.game-tree  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .level-0, .level-1, .level-2 {
+        height: 4rem;
+        display: inline-flex;
+        justify-content: center;
+
+        .circle {
+            width: 3rem;
+            height: 3rem;
+            border: 1px solid black;
+            border-radius: 3rem;
+        }
+    }
+
+    .level-0 {
+        order: 1;
+        width: 100%;
+    }
+
+    .level-1 {
+        order: 2;
+        width: 50%;
+        position: relative;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 50%;
+            left: 50%;
+            border-top: 1px solid black;
+        }
+
+        &:last-child {
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                width: 50%;
+                right: 50%;
+                border-top: 1px solid red;
+            }
+        }
+    }
+
+    .level-2 {
+        order: 3;
+        width: 25%;
+    }
+}
+
