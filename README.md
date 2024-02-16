@@ -20,7 +20,7 @@ Follow these steps to set up and launch the Algorithm Visualizer on your local s
 
    Clone the repository to your local machine using the following command:
 
-    `git clone git@github.com:MoHe99/AlgorithmVisualization.git`
+    `git@github.com:MoHe99/algorithm-visualization.git`
     
 2. **Install Dependencies**
 
