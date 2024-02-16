@@ -1,0 +1,23 @@
+@use './variables.scss' as *;
+
+html {
+	font-size: 12px;
+	color: $font-color-base;
+	line-height: $line-height-m;
+	width: 100%;
+
+	@media screen and (min-width: 1280px) {
+		font-size: 16px;
+	}
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}

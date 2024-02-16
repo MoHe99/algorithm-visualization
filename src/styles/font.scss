@@ -1,0 +1,41 @@
+@use './variables.scss' as *;
+
+h1,
+h2 {
+	text-align: center;
+	color: $font-color-primary;
+	margin: 0;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: $font-size-xxl;
+	line-height: $line-height-xxl;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: $font-size-xl;
+	line-height: $line-height-xl;
+}
+
+.menu {
+	button,
+	select {
+		font-size: $font-size-l;
+		line-height: $line-height-l;
+		font-weight: 700;
+	}
+}
+
+.algorithm-information {
+	.stats {
+		.row {
+			.cell {
+				&.description {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
