@@ -9,8 +9,10 @@ This project is an interactive visualizer for various sorting algorithms, design
 - **MergeSort**: An efficient, comparison-based, divide-and-conquer sorting algorithm that divides a list into two halves, sorts each half, and then merges the sorted halves back together.
 
 ## Prerequisites
-
-Before you begin, ensure you have `pnpm` and Node.js version 20 or newer installed on your system. These tools are necessary for installing dependencies and running the visualizer locally.
+Before you begin, ensure you have 
+- pnpm
+- Nodejs >=20 or
+newer installed on your system. These tools are necessary for installing dependencies and running the visualizer locally.
 
 ## Getting Started
 
@@ -35,8 +37,7 @@ Follow these steps to set up and launch the Algorithm Visualizer on your local s
 
     After the server has started, you can visit `http://localhost:3000` and begin experimenting with the visualization of the sorting algorithms.
 
-## Important Note
-
-This project serves as a personal training and small showcase project. It is intended for my own educational purposes and to demonstrate my skills and interests in software development and algorithms. It's not aimed at wide distribution or commercial use. Contributions, feedback, and suggestions are welcome but please note that this is an older personal development project.
+> [!Important]
+> This project serves as a personal training and small showcase project. It is intended for my own educational purposes and to demonstrate my skills and interests in software development and algorithms. It's not aimed at wide distribution or commercial use. Contributions, feedback, and suggestions are welcome but please note that this is an older personal development project.
 
 
