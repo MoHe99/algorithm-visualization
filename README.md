@@ -11,8 +11,9 @@ This project is an interactive visualizer for various sorting algorithms, design
 ## Prerequisites
 Before you begin, ensure you have 
 - pnpm
-- Nodejs >=20 or
-newer installed on your system. These tools are necessary for installing dependencies and running the visualizer locally.
+- Nodejs >=20
+
+installed on your system. These tools are necessary for installing dependencies and running the visualizer locally.
 
 ## Getting Started
 
